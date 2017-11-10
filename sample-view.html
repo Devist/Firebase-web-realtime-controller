@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="INSIGHT-firebaseUtil.js"></script>
+	<script type="text/javascript" src="sample-view.js"></script>
+	<title>LDCC</title>
+</head>
+<body class="t">
+<section id="loginWrap">
+	<div class="loginBox">
+
+		<fieldset>
+			<h1>강의를 Firebase에 등록</h1>
+			<p class="id_pw">
+				<label for="">강의추가</label>
+				<input type="text" id="addEventName" placeholder="Employee ID Number" />
+			</p>
+			<button type="button" class="bt_add">추가</button>
+		</fieldset>
+
+		<fieldset>
+			<h1>1. 현재 보여질 행사 선택</h1>
+			<p class="id_pw">
+				<label for="">강의 선택</label>
+				<input type="text" id="choiceEventName" placeholder="Employee ID Number" />
+			</p>
+			<button type="button" class="bt_choice">선택</button>
+		</fieldset>
+
+		<fieldset>
+			<h1>2. 진행자의 리모콘 동작에 따른 화면 전환</h1>
+			<h3 id="myView"></h3>
+			</p>
+		</fieldset>
+
+	</div>
+
+<!-- 	<button type="button" class="info">Information</button> -->
+	<!-- footer -->
+	<footer>
+		<p>COPYRIGHT ⓒ  LDCC|HIT.  ALL RIGHTS RESERVED.</p>
+	</footer>
+	<!-- //footer -->
+</section>
+</body>
+</html>

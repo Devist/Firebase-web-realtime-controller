@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8" />
+	<script src="https://www.gstatic.com/firebasejs/3.6.2/firebase.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="INSIGHT-firebaseUtil.js"></script>
+	<script type="text/javascript" src="sample-MC-remoteController.js"></script>
+	<title>LDCC</title>
+</head>
+<body class="t">
+<section id="loginWrap">
+	<div class="loginBox">
+		<fieldset>
+			<h1>진행자 리모컨</h1>
+			<p class="id_pw">
+				<label for="">강의이름</label>
+				<input type="text" id="className" placeholder="강의명" />
+				<br>
+				<label for="">퀴즈번호</label>
+				<input type="text" id="quizNumber" placeholder="DB에 정의된 퀴즈 번호" />
+				<br>
+				<label for="">퀴즈타입</label>
+				<input type="text" id="quizType" placeholder="[OX,Objective,Subjective,Stop]" />
+			</p>
+			<button type="button" class="run_btn">퀴즈 실행</button>
+			<button type="button" class="result_btn">정답 실행</button>
+			<button type="button" class="stop_btn">종료</button>
+		</fieldset>
+	</div>
+
+</section>
+</body>
+</html>
